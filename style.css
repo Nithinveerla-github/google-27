@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* ***************header**************** */
+.main-container {
+    display: flex;
+    height: 70px;
+    justify-content: end;
+    padding: 30px;
+    gap: 30px;
+    font-size: 30px;
+}
+
+.main-container>a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container>a:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    background-color: grey;
+}
+
+.ni {
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    background-color: rgb(25, 25, 88);
+    color: white;
+    border-radius: 50%;
+
+
+}
+
+
+
+/* *****************************google********************* */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 50px;
+}
+
+/* *********image***********/
+.image {
+    background-image: url('google_logo\ \(1\).svg');
+    height: 120px;
+    width: 350px;
+    background-size: cover;
+}
+
+/********search icon****** */
+.search {
+    display: flex;
+    height: 60px;
+    width: 900px;
+    justify-content: space-between;
+    border: px solid;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 0px 0px 4px;
+}
+.nithin {
+    display: flex;
+    gap: 20px;
+}
+
+.p {
+    color: grey;
+    align-self: center;
+    border: none;
+    font-size: 1.6rem;
+    outline: none;
+}
+
+.add {
+    font-size: 1.2rem;
+  
+}
+/* *********************apps*********** */
+.apps{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.whatsapp{
+    background-image: url('whatsapp.png');
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    border: 10px solid lightgrey;
+}
+.insta{
+    background-image: url('./Youtube_logo.png');
+}
+
+.whatsapp>p{
+  justify-content: center;
+}
+.coders{
+    background-image: url('./10000_coders_logo.jpeg');
+}
+@media screen and (max-width: 600px){
+.image{
+    height: 60px;
+    width: 175px;
+}
+.search{
+    height: 38px;
+    width: 350px;
+    font-size: 15px;
+    padding: 5px;
+}
+.p{
+    font-size: 17px;
+}
+.nithin{
+    gap:0px;
+}
+.short {
+    height: 35px;
+    width: 35px;
+    font-size: 1rem;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.icon {
+    height: 30px;
+    width: 30px;
+}
+.main-container {
+   
+    gap: 10px;
+    font-size: 5px;
+}
+.ni {
+    height: 30px;
+    width: 30px;
+    padding-top: 1.5px;
+    padding-bottom:5px ;
+}
+.container {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    gap: 30px;
+    transform: translate(-50%,-50%);
+}
+.add{
+   padding-left: 70px;
+
+}.main-container {
+    font-size: 20px;
+}
+.apps{
+    width: 300px;
+}
+.whatsapp{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 8px solid lightgrey;
+}
+}
